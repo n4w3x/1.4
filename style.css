@@ -133,6 +133,6 @@ body {
   text-decoration: none;
   color: #1b1c21;
 }
-.localization_item a:hover {
+.localization a:hover {
   opacity: 0.4;
 }
