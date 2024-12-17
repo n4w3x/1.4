@@ -38,15 +38,15 @@ body {
   align-items: center;
   flex-wrap: nowrap;
 }
-.menu-button{
+.menu-button {
   padding-right: 16px;
   margin-left: 24px;
   margin-top: 23px;
 }
-.logo{
+.logo {
   margin-top: 17px;
 }
-.search-button{
+.search-button {
   margin-left: 74px;
   margin-top: 24px;
 }
@@ -108,7 +108,6 @@ body {
 .address__tel-link {
   font-size: 24px;
   font-family: "TTLakes";
-  font-weight: 700;
   letter-spacing: -0.6px;
 }
 .address__mail-link {
@@ -124,12 +123,16 @@ body {
   list-style: none;
   display: flex;
 }
-.localization__item {
+.localization__item a {
   margin: 0;
   padding: 2px;
   font-family: "TTLakes";
   font-weight: 500;
   text-transform: uppercase;
   list-style: none;
+  text-decoration: none;
+  color: #1b1c21;
 }
-
+.localization_item a:hover {
+  opacity: 0.4;
+}
