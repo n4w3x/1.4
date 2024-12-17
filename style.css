@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "TTLakes";
+  font-weight: 700;
+  src: url(fonts/TTLakes-Bold.woff);
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TTLakes";
+  font-weight: 500;
+  src: url(fonts/TTLakes-Medium.woff);
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: 16px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin: 0;
+  font-family: "TTLakes";
+  background-color: #ffffff;
+}
+
+.menu-button-box {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.menu-button-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 0px;
+  align-items: center;
+}
+.main-menu {
+  font-family: "TTlakes";
+  font-weight: 500;
+  width: 222px;
+  margin-left: 24px;
+  padding: 0;
+  list-style: none;
+}
+.main-menu a {
+  text-decoration: none;
+  color: #1b1c21;
+}
+.main-menu a:hover {
+  opacity: 0.5;
+}
+.main-menu__item {
+  margin-bottom: 24px;
+}
+
+.active {
+  position: relative;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -16px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 32px;
+  background: #41f6d7;
+  border-radius: 0 4px 4px 0;
+}
+.user-menu {
+  display: flex;
+  margin: 20px 0 20px;
+  padding-top: 24px;
+  list-style: none;
+}
+.main-nav__address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+}
+.main-nav__address a {
+  text-decoration: none;
+  font-family: "TTLakes";
+  color: #1b1c21;
+  font-style: normal;
+  margin-left: 24px;
+  font-weight: 400;
+}
+.address__tel-link {
+  font-size: 24px;
+  font-family: "TTLakes";
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+.address__mail-link {
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+.user-menu__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.main-nav__localization {
+  list-style: none;
+  display: flex;
+}
+.localization__item {
+  margin: 0;
+  padding: 2px;
+  font-family: "TTLakes";
+  font-weight: 500;
+  text-transform: uppercase;
+  list-style: none;
+}
+
