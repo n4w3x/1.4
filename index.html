@@ -7,67 +7,63 @@
     <title>Мобильное меню</title>
   </head>
   <body>
-    <header>
-      <nav class="menu-button-list">
-        <div class="menu-button__item menu-button-box">
-          <a href="#">
-            <img
-              class="menu-button-list menu-button"
+    <div class="box">
+    <div class="background"></div>
+    <nav class="side-menu">
+      <header class="top-side">
+            <a href="#"><img
+              class="top-side_element burger"
               src="img/burger.svg"
               alt="burger"
-            />
-          </a>
+            /></a>
           <img
-            class="menu-button-list__item user-set__list logo"
+            class="top-side_element logo"
             src="img/Group.svg"
-            width="97"
-            height="51"
             alt="logo"
           />
-
-          <a href="#">
-            <img
-              class="menu-button-list__item user-status__list search-button"
+            <a href="#"><img
+              class="top-side_element repair"
               src="img/search.svg"
               alt="search"
-            />
-          </a>
-        </div>
-      </nav>
-    </header>
-    <ul class="main-menu">
-      <li class="main-menu__item">
-        <a class="active" href="#">Ремонт техники</a>
-      </li>
-      <li class="main-menu__item"><a href="#">Услуги и сервисы</a></li>
-      <li class="main-menu__item"><a href="#">Корпоративным клиентам</a></li>
-      <li class="main-menu__item"><a href="#">Продавцам техники</a></li>
-      <li class="main-menu__item"><a href="#">Партнерам</a></li>
-      <li class="main-menu__item"><a href="#">Производителям</a></li>
-      <li class="main-menu__item"><a href="#">Наши сервисные центры</a></li>
-      <li class="main-menu__item"><a href="#">Контакты</a></li>
-    </ul>
-    <ul class="user-menu">
-      <li class="user-menu__item">
-        <img src="img/chat copy.svg" alt="call" />
-      </li>
-      <li class="user-menu__item"><img src="img/chat.svg" alt="feedback" /></li>
-      <li class="user-menu__item">
-        <img src="img/profile.svg" alt="profile" />
-      </li>
-    </ul>
+            /></a>
+      </header>
+    <main class="center-side">
+      
+      <a class="active main-menu__item" href="#">Ремонт техники</a>
+      
+      <a class="main-menu__item" href="#">Услуги и сервисы</a>
+      <a class="main-menu__item"  href="#">Корпоративным клиентам</a>
+      <a class="main-menu__item"  href="#">Продавцам техники</a>
+      <a class="main-menu__item"  href="#">Партнерам</a>
+      <a class="main-menu__item"  href="#">Производителям</a></li>
+      <a class="main-menu__item"  href="#">Наши сервисные центры</a>
+      <a class="main-menu__item"  href="#">Контакты</a>
+    
+    </main>
+    <footer class="bottom-side">
+    <div class="user-menu">
+      
+        <img class="bottom-side_element" src="img/chat copy.svg" alt="call" />
+      
+        <img class="bottom-side_element" src="img/chat.svg" alt="feedback" />
+      
+        <img class="bottom-side_element" src="img/profile.svg" alt="profile" />
+    </div>
     <address class="address main-nav__address">
-      <a class="address__mail-link link" href="mailto:mail@cps.com"
+      <a class="address__mail-link link bottom-side_element" href="mailto:mail@cps.com"
         >mail@cps.com</a
       >
-      <a class="address__tel-link link" href="tel:88008908900"
+      <a class="address__tel-link link bottom-side_element" href="tel:88008908900"
         >8 800 890 8900</a
       >
     </address>
-    <ul class="localization main-nav__localization">
-      <li class="localization__item"><a href="#">ru</a></li>
-      <li class="localization__item"><a href="#">en</a></li>
-      <li class="localization__item"><a href="#">ch</a></li>
-    </ul>
+    <div class="localization main-nav__localization bottom-bot">
+      <a class="localization__item bottom-side_element bottom-bot" href="#">ru</a>
+      <a class="localization__item bottom-side_element bottom-bot" href="#">en</a>
+      <a class="localization__item bottom-side_element bottom-bot" href="#">ch</a>
+    </div>
+    </footer>
+    </nav>
+  </div>
   </body>
 </html>
