@@ -13,7 +13,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 body {
   padding: 0;
   margin: 0;
@@ -22,13 +21,13 @@ body {
   color: #1b1c21;
   font-weight: 500;
 }
-.box{
+.box {
   display: flex;
   position: relative;
   padding: 0;
   margin: 0;
 }
-img{
+img {
   width: 40px;
   height: auto;
 }
@@ -37,13 +36,13 @@ img{
   margin-right: auto;
   margin-left: 15px;
 }
-.background{
+.background {
   position: absolute;
   z-index: 1;
   padding: 0;
   margin: 0;
 }
-.side-menu{
+.side-menu {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -55,17 +54,17 @@ img{
   padding: 20px;
   justify-content: space-between;
   box-sizing: border-box;
-  }
-.top-side{
+}
+.top-side {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.center-side{
+.center-side {
   margin-bottom: auto;
   margin-top: 15px;
 }
-.main-menu__item  {
+.main-menu__item {
   text-decoration: none;
   color: #1b1c21;
 }
@@ -78,11 +77,9 @@ img{
   font-weight: 500;
   color: #1b1c21;
 }
-
 .active {
   position: relative;
 }
-
 .active::before {
   content: "";
   position: absolute;
@@ -109,20 +106,18 @@ img{
   color: #1b1c21;
   font-style: normal;
 }
-
-.bottom-side_element{
+.bottom-side_element {
   margin-right: 15px;
 }
-.address__mail-link{
+.address__mail-link {
   margin-top: 16px;
 }
-.address__tel-link{
+.address__tel-link {
   font-size: 24px;
   font-weight: 700;
   margin-top: 12px;
   margin-bottom: 40px;
 }
-
 .localization a {
   margin: 0;
   padding: 2px;
